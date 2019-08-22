@@ -1,0 +1,12 @@
+2019-08-22 15:25:34,668 [app.api.api_test] [ERROR] :40: this is error
+2019-08-22 15:25:34,668 [app.api.api_test] [CRITICAL] :50: this is critical
+2019-08-22 16:00:56,443 [app.api.base] [ERROR] :40: (sqlite3.IntegrityError) NOT NULL constraint failed: article.title
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: (None, None, '2019-08-22 16:00:56.442499', None)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2019-08-22 16:02:05,411 [app.api.base] [ERROR] :40: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: [{'title': 'qin', 'body': '456', 'last_change_time': '2019-08-22 00:00:00:00', 'author_id': 1}]]
+2019-08-22 16:03:36,068 [app.api.base] [ERROR] :40: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: [{'title': 'qin', 'body': '456', 'last_change_time': '2019-08-22 00:00:00:00', 'author_id': 1}]]

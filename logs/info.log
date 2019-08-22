@@ -1,0 +1,110 @@
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:25:07] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [22/Aug/2019 15:25:15] "GET / HTTP/1.1" 404 -
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [22/Aug/2019 15:25:34] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:25:46] "GET /unifiedResponse HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:25:57] "GET /packedResponse HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:26:07] "GET /typeResponse HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:26:15] "GET /testRedisWrite HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:26:22] "GET /testRedisRead HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:26:30] "GET /testGetCaptcha HTTP/1.1" 200 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\api\\api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:27:04] "GET /testGetCaptcha HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:27:31] "POST /testVerifyCaptcha HTTP/1.1" 200 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\api\\api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:27:55] "POST /testVerifyCaptcha HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:28:19] "POST /testLogin HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:28:55] "GET /testGetData HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:29:26] "GET /testGetData HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:32:27] "GET /testRefreshToken?refresh_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjY0NjYwOTksImZsYWciOjAsImlhdCI6MTU2NjQ1ODg5OSwiaXNzIjoicWluIiwidXNlcl9pZCI6InFpbiJ9.0atOUwNSwBE7CR9Giy4cWTyTNU-9j7mWHg1umavotNI HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:32:52] "GET /testExcel HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:33:01] "GET /testWord HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:33:09] "GET /testTree HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:33:39] "GET /testPDF HTTP/1.1" 200 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:44:08] "GET /testPDF HTTP/1.1" 200 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:49:16] "GET /testCeleryAdd HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:49:27] "GET /testCeleryFlaskAppContext HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:51:05] "GET /articleapi HTTP/1.1" 308 -
+127.0.0.1 - - [22/Aug/2019 15:51:14] "GET /article HTTP/1.1" 404 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:51:41] "GET /articleapi/ HTTP/1.1" 200 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\app\\factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Aug/2019 15:56:47] "GET /articleapi/ HTTP/1.1" 500 -
+127.0.0.1 - - [22/Aug/2019 15:57:00] "GET /articleapi/ HTTP/1.1" 500 -
+127.0.0.1 - - [22/Aug/2019 15:57:00] "GET /articleapi/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:00] "GET /articleapi/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:00] "GET /articleapi/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:00] "GET /articleapi/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:01] "GET /articleapi/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:01] "GET /articleapi/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:18] "GET /articleapi/ HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:57:23] "GET /articleapi/ HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2019 15:58:25] "POST /articleapi/1 HTTP/1.1" 405 -
+127.0.0.1 - - [22/Aug/2019 15:58:28] "POST /articleapi/1/ HTTP/1.1" 404 -
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\run.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'F:\\dmo1\\flask-restful-example\\run.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-350-936
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+(sqlite3.IntegrityError) NOT NULL constraint failed: article.title
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: (None, None, '2019-08-22 16:00:56.442499', None)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+127.0.0.1 - - [22/Aug/2019 16:00:56] "POST /articleapi/ HTTP/1.1" 200 -
+(builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: [{'title': 'qin', 'body': '456', 'last_change_time': '2019-08-22 00:00:00:00', 'author_id': 1}]]
+127.0.0.1 - - [22/Aug/2019 16:02:05] "POST /articleapi/ HTTP/1.1" 200 -
+(builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO article (title, body, last_change_time, author_id) VALUES (?, ?, ?, ?)]
+[parameters: [{'title': 'qin', 'body': '456', 'last_change_time': '2019-08-22 00:00:00:00', 'author_id': 1}]]
+127.0.0.1 - - [22/Aug/2019 16:03:36] "POST /articleapi/ HTTP/1.1" 200 -
